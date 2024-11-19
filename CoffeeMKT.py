@@ -8,7 +8,7 @@ from streamlit_option_menu import option_menu
 # Cargar los datos
 df = pd.read_csv("https://raw.githubusercontent.com/orozcoanavic/clasee/refs/heads/main/Coffee%20Shop%20Sales_update.csv")
 
-with open('/content/waves.css') as f:
+with open('waves.css') as f:
     css = f.read()
 st.markdown(f'<style>{css}</style>', unsafe_allow_html=True)
 
